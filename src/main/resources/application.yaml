@@ -1,0 +1,21 @@
+#spring:
+#  cloud:
+#    gcp:
+#      datastore:
+#        project-id:
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      base-path: '/'
+  endpoint:
+    health:
+      show-details: when_authorized
+
+test:
+  name: "default_name"
+
+logging.level.root: INFO
+#logging.level.root: DEBUG

@@ -1,0 +1,15 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      base-path: '/'
+  endpoint:
+    health:
+      show-details: when_authorized
+
+test:
+  name: "local-test"
+
+logging.level.root: INFO
+#logging.level.root: DEBUG

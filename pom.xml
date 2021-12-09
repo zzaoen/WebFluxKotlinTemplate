@@ -19,7 +19,7 @@
         <kotlin.version>1.3.61</kotlin.version>
         <reactor-kotlin-extensions.version>1.0.2.RELEASE</reactor-kotlin-extensions.version>
 		<maven-git-code-format.version>1.38</maven-git-code-format.version>
-		<jackson-databind.version>2.9.8</jackson-databind.version>
+		<jackson-databind.version>2.9.10.8</jackson-databind.version>
         <spring-cloud-gcp-starter-data-datastore.version>1.2.0.RELEASE</spring-cloud-gcp-starter-data-datastore.version>
     </properties>
 
